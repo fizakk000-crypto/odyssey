@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python odyssey</title>
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <h1>Level 1: Python begins</h1>
+
+    <h2>Question 1</h2>
+
+    <p>Which function displays output in Python?</p>
+
+    <form action="/check" method="POST">
+
+        <button name="answer" value="print">
+            print()
+        </button>
+
+        <button name="answer" value="input">
+            input()
+        </button>
+
+        <button name="answer" value="len">
+            len()
+        </button>
+
+    </form>
+
+    <a href="/">Back to Home</a>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap');
+
+:root {
+    --heading-font: 'Playfair Display', serif;
+    --body-font: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 60px;
+    min-height: 100vh;
+    text-align: center;
+    font-family: var(--body-font);
+    color: #e2e8f0;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+h1 {
+    font-family: var(--heading-font);
+    font-size: 56px;
+    background: linear-gradient(90deg, #38bdf8, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #94a3b8;
+}
+
+button {
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font: 600 16px var(--body-font);
+    cursor: pointer;
+    background: linear-gradient(90deg, #2563eb, #7c3aed);
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4);
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(124, 58, 237, 0.5);
+}
+
+.card {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+.music-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    margin: 0;
+}
